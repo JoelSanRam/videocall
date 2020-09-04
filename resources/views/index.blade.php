@@ -31,7 +31,7 @@
             <div class="preloader-inner position-relative">
                 <div class="preloader-circle"></div>
                 <div class="preloader-img pere-text">
-                    <img src="assets/img/logo/loder.png" alt="">
+                    <img src="{{asset ('front/assets/img/logo/loder.png')}}" alt="">
                 </div>
             </div>
         </div>
@@ -46,7 +46,7 @@
                     <!-- Logo -->
                     <div class="col-xl-2 col-lg-2 col-md-1">
                         <div class="logo">
-                            <a href="index.html"><img src="assets/img/logo/logo.png" alt=""></a>
+                            <a href="index.html"><img src="{{asset ('assets/img/logo/logo.png')}}" alt=""></a>
                         </div>
                     </div>
                     <div class="col-xl-10 col-lg-10 col-md-10">
@@ -161,10 +161,10 @@
                     <!-- about-img -->
                     <div class="about-img ">
                         <div class="about-font-img d-none d-lg-block">
-                            <img src="assets/img/gallery/about2.png" alt="">
+                            <img src="{{asset ('assets/img/gallery/about2.png')}}" alt="">
                         </div>
                         <div class="about-back-img ">
-                            <img src="assets/img/gallery/about1.png" alt="">
+                            <img src="{{asset ('assets/img/gallery/about1.png')}}" alt="">
                         </div>
                     </div>
                 </div>
@@ -243,7 +243,7 @@
                             </div>
                             <div class="col-lg-5">
                                 <div class="dept_thumb">
-                                    <img src="assets/img/gallery/department_man.png" alt="">
+                                    <img src="{{asset ('assets/img/gallery/department_man.png')}}" alt="">
                                 </div>
                             </div>
                         </div>
@@ -261,7 +261,7 @@
                             </div>
                             <div class="col-lg-5">
                                 <div class="dept_thumb">
-                                    <img src="assets/img/gallery/department_man.png" alt="">
+                                    <img src="{{asset ('assets/img/gallery/department_man.png')}}" alt="">
                                 </div>
                             </div>
                         </div>
@@ -279,7 +279,7 @@
                             </div>
                             <div class="col-lg-5">
                                 <div class="dept_thumb">
-                                    <img src="assets/img/gallery/department_man.png" alt="">
+                                    <img src="{{asset ('assets/img/gallery/department_man.png')}}" alt="">
                                 </div>
                             </div>
                         </div>
@@ -297,7 +297,7 @@
                             </div>
                             <div class="col-lg-5">
                                 <div class="dept_thumb">
-                                    <img src="assets/img/gallery/department_man.png" alt="">
+                                    <img src="{{asset ('assets/img/gallery/department_man.png')}}" alt="">
                                 </div>
                             </div>
                         </div>
@@ -315,7 +315,7 @@
                             </div>
                             <div class="col-lg-5">
                                 <div class="dept_thumb">
-                                    <img src="assets/img/gallery/department_man.png" alt="">
+                                    <img src="{{asset ('assets/img/gallery/department_man.png')}}" alt="">
                                 </div>
                             </div>
                         </div>
@@ -333,7 +333,7 @@
                             </div>
                             <div class="col-lg-5">
                                 <div class="dept_thumb">
-                                    <img src="assets/img/gallery/department_man.png" alt="">
+                                    <img src="{{asset ('assets/img/gallery/department_man.png')}}" alt="">
                                 </div>
                             </div>
                         </div>
@@ -363,17 +363,17 @@
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="single-gallery mb-30">
-                                <div class="gallery-img big-img" style="background-image: url(assets/img/gallery/gallery1.png);"></div>
+                                <div class="gallery-img big-img" style="background-image: url({{asset ('assets/img/gallery/gallery1.png')}});"></div>
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-6">
                             <div class="single-gallery mb-30">
-                                <div class="gallery-img small-img" style="background-image: url(assets/img/gallery/gallery2.png);"></div>
+                                <div class="gallery-img small-img" style="background-image: url({{asset ('assets/img/gallery/gallery2.png')}});"></div>
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-6">
                             <div class="single-gallery mb-30">
-                                <div class="gallery-img small-img" style="background-image: url(assets/img/gallery/gallery3.png);"></div>
+                                <div class="gallery-img small-img" style="background-image: url({{asset ('assets/img/gallery/gallery3.png')}});"></div>
                             </div>
                         </div>
                     </div>
@@ -383,17 +383,17 @@
                     <div class="row">
                         <div class="col-lg-6 col-md-6 col-sm-6">
                             <div class="single-gallery mb-30">
-                                <div class="gallery-img small-img" style="background-image: url(assets/img/gallery/gallery4.png);"></div>
+                                <div class="gallery-img small-img" style="background-image: url({{asset ('assets/img/gallery/gallery4.png')}});"></div>
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-6">
                             <div class="single-gallery mb-30">
-                                <div class="gallery-img small-img" style="background-image: url(assets/img/gallery/gallery5.png);"></div>
+                                <div class="gallery-img small-img" style="background-image: url({{asset ('assets/img/gallery/gallery5.png')}});"></div>
                             </div>
                         </div>
                         <div class="col-lg-12">
                             <div class="single-gallery mb-30">
-                                <div class="gallery-img big-img" style="background-image: url(assets/img/gallery/gallery6.png);"></div>
+                                <div class="gallery-img big-img" style="background-image: url({{asset ('assets/img/gallery/gallery6.png')}});"></div>
                             </div>
                         </div>
                     </div>
@@ -419,7 +419,7 @@
                         <!-- founder -->
                         <div class="testimonial-founder d-flex align-items-center justify-content-center">
                             <div class="founder-img">
-                                <img src="assets/img/gallery/Homepage_testi.png" alt="">
+                                <img src="{{asset ('assets/img/gallery/Homepage_testi.png')}}" alt="">
                             </div>
                             <div class="founder-text">
                                 <span>Margaret Lawson</span>
@@ -452,7 +452,7 @@
                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-">
                     <div class="single-team mb-30">
                         <div class="team-img">
-                            <img src="assets/img/gallery/team2.png" alt="">
+                            <img src="{{asset ('assets/img/gallery/team2.png')}}" alt="">
                         </div>
                         <div class="team-caption">
                             <h3><a href="#">Alvin Maxwell</a></h3>
@@ -470,7 +470,7 @@
                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-">
                     <div class="single-team mb-30">
                         <div class="team-img">
-                            <img src="assets/img/gallery/team3.png" alt="">
+                            <img src="{{asset ('assets/img/gallery/team3.png')}}" alt="">
                         </div>
                         <div class="team-caption">
                             <h3><a href="#">Maria Smith</a></h3>
@@ -488,7 +488,7 @@
                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-">
                     <div class="single-team mb-30">
                         <div class="team-img">
-                            <img src="assets/img/gallery/team1.png" alt="">
+                            <img src="{{asset ('assets/img/gallery/team1.png')}}" alt="">
                         </div>
                         <div class="team-caption">
                             <h3><a href="#">Angela Doe</a></h3>
@@ -569,7 +569,7 @@
         </div>
         <!-- contact left Img-->
         <div class="from-left d-none d-lg-block">
-            <img src="assets/img/gallery/contact_form.png" alt="">
+            <img src="{{asset ('assets/img/gallery/contact_form.png')}}" alt="">
         </div>
     </div>
     <!-- Contact form End -->
@@ -580,42 +580,42 @@
                 <div class="col-lg-3 col-md-3 col-sm-6">
                     <div class="gallery-box">
                         <div class="single-gallery">
-                            <div class="gallery-img " style="background-image: url(assets/img/gallery/gallery1.png);"></div>
+                            <div class="gallery-img " style="background-image: url({{asset ('assets/img/gallery/gallery1.png')}});"></div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-3 col-sm-6">
                     <div class="gallery-box">
                         <div class="single-gallery">
-                            <div class="gallery-img " style="background-image: url(assets/img/gallery/gallery2.png);"></div>
+                            <div class="gallery-img " style="background-image: url({{asset ('assets/img/gallery/gallery2.png')}});"></div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-6">
                     <div class="gallery-box">
                         <div class="single-gallery">
-                            <div class="gallery-img " style="background-image: url(assets/img/gallery/gallery3.png);"></div>
+                            <div class="gallery-img " style="background-image: url({{asset ('assets/img/gallery/gallery3.png')}});"></div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-6">
                     <div class="gallery-box">
                         <div class="single-gallery">
-                            <div class="gallery-img " style="background-image: url(assets/img/gallery/gallery4.png);"></div>
+                            <div class="gallery-img " style="background-image: url({{asset ('assets/img/gallery/gallery4.png')}});"></div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-3 col-sm-6">
                     <div class="gallery-box">
                         <div class="single-gallery">
-                             <div class="gallery-img " style="background-image: url(assets/img/gallery/gallery5.png);"></div>
+                             <div class="gallery-img " style="background-image: url({{asset ('assets/img/gallery/gallery5.png')}});"></div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-3 col-sm-6">
                     <div class="gallery-box">
                         <div class="single-gallery">
-                            <div class="gallery-img " style="background-image: url(assets/img/gallery/gallery6.png);"></div>
+                            <div class="gallery-img " style="background-image: url({{asset ('assets/img/gallery/gallery6.png')}});"></div>
                         </div>
                     </div>
                 </div>
@@ -639,7 +639,7 @@
                 <div class="col-xl-4 col-lg-4 col-md-6">
                     <div class="single-blogs mb-30">
                         <div class="blog-img">
-                            <img src="assets/img/gallery/blog1.png" alt="">
+                            <img src="{{asset ('assets/img/gallery/blog1.png')}}" alt="">
                         </div>
                         <div class="blogs-cap">
                             <div class="date-info">
@@ -654,7 +654,7 @@
                 <div class="col-xl-4 col-lg-4 col-md-6">
                     <div class="single-blogs mb-30">
                         <div class="blog-img">
-                            <img src="assets/img/gallery/blog2.png" alt="">
+                            <img src="{{asset ('assets/img/gallery/blog2.png')}}" alt="">
                         </div>
                         <div class="blogs-cap">
                             <div class="date-info">
@@ -669,7 +669,7 @@
                 <div class="col-xl-4 col-lg-4 col-md-6">
                     <div class="single-blogs mb-30">
                         <div class="blog-img">
-                            <img src="assets/img/gallery/blog3.png" alt="">
+                            <img src="{{asset ('assets/img/gallery/blog3.png')}}" alt="">
                         </div>
                         <div class="blogs-cap">
                             <div class="date-info">
@@ -688,7 +688,7 @@
     </main>
     <footer>
         <!--? Footer Start-->
-        <div class="footer-area section-bg" data-background="assets/img/gallery/footer_bg.jpg">
+        <div class="footer-area section-bg" data-background="{{asset ('assets/img/gallery/footer_bg.jpg')}}">
             <div class="container">
                 <div class="footer-top footer-padding">
                     <div class="row d-flex justify-content-between">
@@ -696,7 +696,7 @@
                             <div class="single-footer-caption mb-50">
                                 <!-- logo -->
                                 <div class="footer-logo">
-                                    <a href="index.html"><img src="assets/img/logo/logo2_footer.png" alt=""></a>
+                                    <a href="index.html"><img src="{{asset ('assets/img/logo/logo2_footer.png')}}" alt=""></a>
                                 </div>
                             </div>
                         </div>
