@@ -15,7 +15,7 @@ class TipoUsuario extends Migration
   {
     Schema::create('tipo_usuarios', function (Blueprint $table) {
       $table->id();
-      $table->integer('tipo');
+      $table->string('tipo');
     });
   }
 
