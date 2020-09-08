@@ -27,37 +27,37 @@
         <div class="collapse navbar-collapse" id="sidenav-collapse-main">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" href="{{ route('enfermedad-sintoma.index') }}">
+              <a class="nav-link active" href="{{ route('administrar/enfermedad-sintoma.index') }}">
                 <i class="ni ni-tv-2 text-primary"></i>
                 <span class="nav-link-text">Enfermedad - Sintoma</span>
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="{{ route('llamada.index') }}">
+              <a class="nav-link" href="{{ route('administrar/llamada.index') }}">
                 <i class="ni ni-planet text-orange"></i>
                 <span class="nav-link-text">Llamada</span>
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="{{ route('medico.index') }}">
+              <a class="nav-link" href="{{ route('administrar/medico.index') }}">
                 <i class="ni ni-pin-3 text-primary"></i>
                 <span class="nav-link-text">Medico</span>
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="{{ route('pago.index') }}">
+              <a class="nav-link" href="{{ route('administrar/pago.index') }}">
                 <i class="ni ni-single-02 text-yellow"></i>
                 <span class="nav-link-text">Pago</span>
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="{{ route('tipo-usuario.index') }}">
+              <a class="nav-link" href="{{ route('administrar/tipo-usuario.index') }}">
                 <i class="ni ni-bullet-list-67 text-default"></i>
                 <span class="nav-link-text">Tipo usuario</span>
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="{{ route('usuario.index') }}">
+              <a class="nav-link" href="{{ route('administrar/usuario.index') }}">
                 <i class="ni ni-key-25 text-info"></i>
                 <span class="nav-link-text">Usuario</span>
               </a>
