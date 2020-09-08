@@ -14,7 +14,7 @@ class EnfermedadSintomaController extends Controller
    */
   public function index()
   {
-    //
+    return view('admin.enfermedadSintoma');
   }
 
   /**
