@@ -6,23 +6,37 @@ use Illuminate\Support\Facades\Schema;
 
 class EnfermedadSintoma extends Migration
 {
-    /**
-     * Run the migrations.
-     *
-     * @return void
-     */
-    public function up()
-    {
-        //
-    }
+  /**
+   * Run the migrations.
+   *
+   * @return void
+   */
+  public function up()
+  {
+    Schema::create('enfermedad_sintomas', function (Blueprint $table) {
+      $table->id();
 
-    /**
-     * Reverse the migrations.
-     *
-     * @return void
-     */
-    public function down()
-    {
-        //
-    }
+      $table->foreignId('id_sugerencia')
+        ->references('id')
+        ->on('sugerencias');
+
+      $table->foreignId('id_sintoma')
+        ->references('id')
+        ->on('sintomas');
+
+      $table->foreignId('id_enfermedad')
+        ->references('id')
+        ->on('enfermedades');
+    });
+  }
+
+  /**
+   * Reverse the migrations.
+   *
+   * @return void
+   */
+  public function down()
+  {
+    Schema::dropIfExists('enfermedad_sintomas');
+  }
 }

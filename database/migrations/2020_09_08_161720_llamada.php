@@ -6,23 +6,35 @@ use Illuminate\Support\Facades\Schema;
 
 class Llamada extends Migration
 {
-    /**
-     * Run the migrations.
-     *
-     * @return void
-     */
-    public function up()
-    {
-        //
-    }
+  /**
+   * Run the migrations.
+   *
+   * @return void
+   */
+  public function up()
+  {
+    Schema::create('llamadas', function (Blueprint $table) {
+      $table->id();
+      $table->string('duracion');
+      $table->date('fecha');
 
-    /**
-     * Reverse the migrations.
-     *
-     * @return void
-     */
-    public function down()
-    {
-        //
-    }
+      $table->foreignId('id_usuario')
+        ->references('id')
+        ->on('usuarios');
+
+      $table->foreignId('id_medico')
+        ->references('id')
+        ->on('medicos');
+    });
+  }
+
+  /**
+   * Reverse the migrations.
+   *
+   * @return void
+   */
+  public function down()
+  {
+    Schema::dropIfExists('llamadas');
+  }
 }

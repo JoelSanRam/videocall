@@ -6,23 +6,27 @@ use Illuminate\Support\Facades\Schema;
 
 class Enfermedad extends Migration
 {
-    /**
-     * Run the migrations.
-     *
-     * @return void
-     */
-    public function up()
-    {
-        //
-    }
+  /**
+   * Run the migrations.
+   *
+   * @return void
+   */
+  public function up()
+  {
+    Schema::create('enfermedades', function (Blueprint $table) {
+      $table->id();
+      $table->integer('status');
+      $table->string('enfermedad');
+    });
+  }
 
-    /**
-     * Reverse the migrations.
-     *
-     * @return void
-     */
-    public function down()
-    {
-        //
-    }
+  /**
+   * Reverse the migrations.
+   *
+   * @return void
+   */
+  public function down()
+  {
+    Schema::dropIfExists('enfermedades');
+  }
 }

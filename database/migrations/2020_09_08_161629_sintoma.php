@@ -6,23 +6,27 @@ use Illuminate\Support\Facades\Schema;
 
 class Sintoma extends Migration
 {
-    /**
-     * Run the migrations.
-     *
-     * @return void
-     */
-    public function up()
-    {
-        //
-    }
+  /**
+   * Run the migrations.
+   *
+   * @return void
+   */
+  public function up()
+  {
+    Schema::create('sintomas', function (Blueprint $table) {
+      $table->id();
+      $table->integer('status');
+      $table->string('sintoma');
+    });
+  }
 
-    /**
-     * Reverse the migrations.
-     *
-     * @return void
-     */
-    public function down()
-    {
-        //
-    }
+  /**
+   * Reverse the migrations.
+   *
+   * @return void
+   */
+  public function down()
+  {
+    Schema::dropIfExists('sintomas');
+  }
 }
