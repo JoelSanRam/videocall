@@ -7,7 +7,7 @@
       <div class="card-header border-0">
         <div class="row align-items-center">
           <div class="col">
-            <h3 class="mb-0">Principal</h3>
+            <h3 class="mb-0">Medico</h3>
           </div>
           <!-- <div class="col text-right">
                   <a href="#!" class="btn btn-sm btn-primary">See all</a>
