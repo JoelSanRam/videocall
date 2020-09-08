@@ -17,6 +17,30 @@ Route::get('/', function () {
     return view('front.index');
 });
 
+Route::get('/ingresar', function () {
+  return view('front.login');
+});
+
+Route::get('/llamada', function () {
+  return view('front.llamada');
+});
+
+Route::get('/perfil', function () {
+  return view('front.perfil');
+});
+
+Route::get('/recomendaciones', function () {
+  return view('front.recomendacion');
+});
+
+Route::get('/registro', function () {
+  return view('front.registro');
+});
+
+Route::get('/sintoma', function () {
+  return view('front.sintoma');
+});
+
 Route::get('/administrar', function () {
     return view('admin.index');
 });
